@@ -1,0 +1,238 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 26pt;
+    color: #777777;
+    background-image: url("../images/white-paper-texture-with-flecks.jpg");
+}
+
+#header {
+    height: 80px;
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+}
+
+#content {
+    width: 960px;
+    margin: auto;
+}
+
+li {
+    display: inline;
+    margin-top: 25px;
+    margin-left: 20px;
+    float: right;
+    color: #777777;
+    font-size: 18px;
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
+}
+#myName {
+    background-color: #4aaaa5;
+    height: 60px;
+    width: 250px;
+    float: left;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px; 
+    color: #ffffff;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+
+#hline1 { 
+    width:100%; 
+    height:2px; 
+    background: #c7c7c7; 
+    margin-top: 80px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+
+#mainSection {
+    float: left;
+    padding: 30px;
+    width: 590px;
+    background-color: #ffffff;
+    border: 1px solid #c7c7c7;
+    margin-bottom: 150px;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#hline2 { 
+    width:545px; 
+    height:2px; 
+    background: #c7c7c7; 
+    margin-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+#myPic {
+    float: left;
+    height: 200px;
+    width: 300px;
+    margin-right: 15px;
+}
+
+#boxOfPics {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+#pic1 {
+    height: 220px;
+    width: 270px;
+    background-color: #c7c7c7; 
+    float: left;
+    margin-right: 45px;
+    margin-top: 20px;
+}
+
+#picTitle1 {
+    height: 40px;
+    width: 270px;
+    margin-top: 150px;
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+#pic2 {
+    height: 220px;
+    width: 270px;
+    background-color: #c7c7c7; 
+    float: left;
+    margin-top: 20px;
+}
+
+#picTitle2 {
+    height: 40px;
+    width: 270px;
+    margin-top: 150px;
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+#pic3 {
+    height: 220px;
+    width: 270px;
+    background-color: #c7c7c7; 
+    float: left;
+    margin-right: 45px;
+    margin-top: 45px;
+}
+
+#picTitle3 {
+    height: 40px;
+    width: 270px;
+    margin-top: 150px;
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+#pic4 {
+    height: 220px;
+    width: 270px;
+    background-color: #c7c7c7; 
+    float: left;
+    margin-top: 45px;
+}
+
+#picTitle4 {
+    height: 40px;
+    width: 270px;
+    margin-top: 150px;
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+#contactTab {
+    background-color: #ffffff;
+    border: 1px solid #c7c7c7; 
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    width: 245px;
+    float: right;
+    overflow: auto;
+}
+
+h3 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#hline3 { 
+    width: 210px; 
+    height:2px; 
+    background: #c7c7c7; 
+    margin-bottom: 20px
+}
+
+#github {
+    float: left;
+    margin-right: 15px;
+    height: 60px;
+    width: 60px;
+}
+
+#linkedin {
+    float: left;
+    margin-right: 15px;
+    height: 60px;
+    width: 60px;
+}
+
+#stack {
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin-bottom: 15px
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c7c7c7; 
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    padding-top: 20px;
+    background-color: #777777;
+    border-top: 5px solid #4aaaa5; 
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
