@@ -1,0 +1,125 @@
+#welcome {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 50em;
+    color: #ffffff;
+    padding: 50px;
+}
+.brand-logo {
+    width: 50%;
+    font-family: 'Arapey', serif;
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+section {
+    padding: 0;
+}
+
+.white {
+    height: 50em;
+    padding-top: 5em;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 3em;
+}
+
+hr {
+    width: 300px;
+    margin: auto 55px 0 0;
+
+}
+
+.jeb img {
+    height: 5em;
+    width: 5em;
+    margin-top: .4em;
+    margin-left: .5em;
+}
+
+.jeb img:hover {
+    margin-top: 0em;
+    cursor: pointer;
+}
+
+.tom {
+    border: 2px #ffffff solid;
+    margin-bottom: 11em;
+}
+
+#mainSection {
+    margin-top: 100px;
+}
+
+#contact {
+    background-image: url("../images/Panoramic_Houston_skyline dark.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 50em;
+    color: #ffffff;
+    padding-top: 7em;
+}
+
+/* label color */
+.input-field label {
+    color: #ffffff;
+    font-size: 1.5em;
+    
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: #ffffff;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #ffffff;
+  }
+  
+  .input-field input[type=text]:not(.browser-default) {
+    border-bottom: 1.5px solid #ffffff;
+    color: #ffffff;
+  }
+
+  .input-field input[type=email]:not(.browser-default) {
+    border-bottom: 1.5px solid #ffffff;
+    color: #ffffff;
+  }
+
+  textarea.materialize-textarea {
+    border-bottom: 1.5px solid #ffffff;
+    color: #ffffff;
+  }
+
+  @media (max-width: 600px) { 
+    .white {
+        height: 70em;
+        padding-top: 5em;
+    }
+    .white h1 {
+        text-align: center;
+    }
+   }

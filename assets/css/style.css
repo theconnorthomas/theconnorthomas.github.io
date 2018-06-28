@@ -5,12 +5,16 @@ body {
     background-image: url("../images/white-paper-texture-with-flecks.jpg");
 }
 
-#header {
+/* #header {
     height: 80px;
     width: 100%;
     background-color: #ffffff;
     position: fixed;
     top: 0;
+} */
+
+section img {
+    width: 100%;
 }
 
 #content {

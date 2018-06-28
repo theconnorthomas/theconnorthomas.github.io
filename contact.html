@@ -3,87 +3,74 @@
 <html>
 
 <head>
-    <title>Contact | Connor Thomas</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="./assets/css/reset.css">-->
+    <link rel="stylesheet" href="./assets/css/style.1.css">
+    <link rel="shortcut icon" type="image/png" href="./assets/images/Untitled-1.png" />
+
+    <title>Contact Me | Connor Thomas</title>
 </head>
 
 <body>
+
     <header id="header">
-        <div id="content">
-            <div id="myName">
-                <h1>Connor Thomas</h1>
-            </div>
-
-            <ul>
-
-                <li>
-                    <a href="./contact.html">Contact</a>
-                </li>
-
-                <li>|</li>
-
-                <li>
-                    <a href="./portfolio.html">Portfolio</a>
-                </li>
-
-                <li>|</li>
-
-                <li>
-                    <a href="./index.html">About</a>
-                </li>
-
-            </ul>
-
-
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper blue-grey lighten-1">
+                    <a href="./index.html" class="brand-logo center">Connor Thomas</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li class="active">
+                            <a href="./index.html">About</a>
+                        </li>
+                        <li>
+                            <a href="./portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-
-        <div id="hline1"></div>
-
     </header>
 
-    <div id="container">
+    <section id="mainSection">
 
-        <section id="mainSection">
-
-            <h2>Contact</h2>
-
-            <div id="hline2"></div>
-
-            <form id="form">
-
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="John Smith">
-
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email" placeholder="example@gmail.com">
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" placeholder="" style="height:200px"></textarea>
-
-                <input type="submit" value="Submit">
-
+        <div class="row">
+            <form class="col s10 offset-s1">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Textarea</label>
+                    </div>
+                </div>
             </form>
+        </div>
 
-        </section>
+    </section>
 
-        <aside id="contactTab">
-
-            <h3>Connect with Me</h3>
-
-            <div id="hline3"></div>
-
-            <img src="./assets/images/github_icon.png" id="github" alt="">
-
-            <img src="./assets/images/linkedin_icon.png" id="linkedin" alt="">
-
-            <img src="./assets/images/stackoverflow_icon.png" id="stack" alt="">
-
-        </aside>
-
-    </div>
-
-    <footer>
+    <footer class="center-align">
         <p>© Copyright2018 Connor Thomas</p>
     </footer>
 
