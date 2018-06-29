@@ -1,18 +1,35 @@
+/* body {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+} */
+
+h1 {
+    font-size: 5em;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+}
+
+
 #welcome {
-    background-image: url("../images/landing.jpg");
+    background-image: url("../images/landing copy.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     height: 50em;
     color: #ffffff;
-    padding: 50px;
 }
+
+#welcome p {
+    padding: 0 10px 0 10px;
+}
+
 .brand-logo {
     width: 50%;
-    font-family: 'Arapey', serif;
-}
-h1 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 section {
@@ -50,6 +67,8 @@ hr {
 .tom {
     border: 2px #ffffff solid;
     margin-bottom: 11em;
+    margin: 0px auto;
+    margin-top: -150px;
 }
 
 #mainSection {
@@ -64,6 +83,19 @@ hr {
     height: 50em;
     color: #ffffff;
     padding-top: 7em;
+}
+
+#portfolio {
+    background-image: url("../images/Panoramic_Houston_skyline dark.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 70em;
+    padding-top: 2em;
+}
+
+#portfolio h1 {
+    color: #ffffff;
 }
 
 /* label color */
@@ -114,12 +146,22 @@ hr {
     color: #ffffff;
   }
 
+  @media (max-width: 1000px) { 
+    #portfolio {
+        height: 90em;
+    }
+   }
+
   @media (max-width: 600px) { 
     .white {
-        height: 70em;
+        height: 75em;
         padding-top: 5em;
     }
     .white h1 {
         text-align: center;
+    }
+
+    #portfolio {
+        height: 155em;
     }
    }
